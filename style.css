@@ -265,7 +265,8 @@ gap: 3rem;
     transform: translate(-50%,-50%);
 }
 .circle_2 img{
-    overflow: hidden;
+    object-position: center;
+    object-fit: cover;
     width: 23rem;
     height: 23rem;
     border-radius: 50%;
@@ -471,7 +472,7 @@ gap: 3rem;
     z-index: 999;
     top: 0;
     left: 0;
-    transition: all linear .3s;
+    transition: all linear .1s;
     pointer-events: none;
     mix-blend-mode: normal;
 }

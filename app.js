@@ -2,7 +2,7 @@ let a = document.getElementById("preloader")
 window.addEventListener("load", function(){
     setTimeout(() => {
         a.style.display = "none";
-    }, 2000);
+    }, 1000);
 })
 
 
